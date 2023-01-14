@@ -1,0 +1,35 @@
+.social-bar {
+	position: fixed;
+	left: .5rem;
+    top:35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+    cursor: pointer;
+}
+
+.icon {
+	text-decoration: none;
+	padding: 1rem;
+	display: flex;
+    transition: all 1s;
+	background: #fff;
+    border: 1px solid hsla(0deg, 0%, 100%, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.14);
+}
+
+
+.icon:first-child {
+	border-radius: 1rem 1rem 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 1rem 1rem;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+    border-radius: 1rem;
+}
