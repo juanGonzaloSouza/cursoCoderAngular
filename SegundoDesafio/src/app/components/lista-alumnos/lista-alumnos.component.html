@@ -1,0 +1,12 @@
+
+<div class="container">
+  <h3>Los usuarios ingresados despues de noviembre estarán en color rojo por fecha tardía.</h3>
+  <ul>
+    <li *ngFor="let AlumnoModel of alumnos">
+      <p>Nombre: {{ AlumnoModel.nombre }}</p>
+      <p>Apellido: {{ AlumnoModel.apellido }}</p>
+      <p>Carrera: {{ AlumnoModel.carrera }}</p>
+      <p [ngClass]="AlumnoModel.fechaTardia  ? 'active-color' : 'active-color2'">Fecha de Ingreso: {{ AlumnoModel.fechaDeIngreso | date }}</p>
+    </li>
+  </ul>
+</div>
