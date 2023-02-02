@@ -1,0 +1,29 @@
+<main class="main-container">
+  <section class="container">
+    <h1 class="container__title">Ingresa tu usuario.</h1>
+    <form class="container__form" [formGroup]="dataForm" (ngSubmit)="dataFormSubmit()">
+      <label class="formulario__label" for="firstName">Nombre</label><input class="formulario__input"
+        formControlName="firstName" type="text">
+      <app-form-validators [controlForm]="firstName"></app-form-validators>
+
+      <label class="formulario__label" for="lastName">Apellido</label><input class="formulario__input"
+        formControlName="lastName" type="text">
+      <app-form-validators [controlForm]="lastName"></app-form-validators>
+
+      <label class="formulario__label" for="cedula">Documento de Identificación</label><input class="formulario__input"
+        formControlName="dni" type="text">
+      <app-form-validators [controlForm]="cedula"></app-form-validators>
+
+      <label class="formulario__label" for="email">Email</label><input class="formulario__input" formControlName="email"
+        type="email">
+      <app-form-validators [controlForm]="email"></app-form-validators>
+
+      <label class="formulario__label" for="password">Contraseña</label><input class="formulario__input"
+        formControlName="password" type="password">
+      <app-form-validators [controlForm]="password"></app-form-validators>
+
+      <button class="formulario__submit" [disabled]="dataForm.invalid" type="submit">Enviar</button>
+
+    </form>
+  </section>
+</main>
