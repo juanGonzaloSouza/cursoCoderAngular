@@ -1,0 +1,32 @@
+.container {
+  background: #fff;
+  border: 1px solid hsla(0deg, 0%, 100%, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.14);
+  margin: 5em 0;
+  td{
+    font-size: 20px;
+  }
+  tr{
+    font-size: 20px;
+  }
+
+  .mat-mdc-row .mat-mdc-cell {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+  .mat-mdc-row:hover .mat-mdc-cell {
+    border-color: currentColor;
+  }
+}
+
+#agregarAlumno {
+  bottom: 73.8%;
+  left: 2%;
+  position: relative;
+  z-index: 10;
+  padding: 30px;
+  transition: 300ms;
+}
+
