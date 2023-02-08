@@ -19,7 +19,8 @@ export class StudentsPageComponent {
     new AlumnoModel(3,'Hernesto','Orca','Biologia'),
     new AlumnoModel(4,'Orca','Girobeltor','Matematica'),
     new AlumnoModel(5,'Alcornoque','Orca','Biologia'),
-    new AlumnoModel(6,'Hernesto','Alcornoque','Futbol')
+    new AlumnoModel(6,'Hernesto','Alcornoque','Futbol'),
+    new AlumnoModel(7,'Felipe', 'Castro','Ingenieria')
   ];
 
   constructor(private readonly modalService: MatDialog){}

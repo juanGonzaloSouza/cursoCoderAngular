@@ -2,7 +2,7 @@
   background: #fff;
   border: 1px solid hsla(0deg, 0%, 100%, 0.18);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.14);
-  margin: 5em 0;
+  margin: 4.6em 0 3em;
   td{
     font-size: 20px;
   }
@@ -22,9 +22,10 @@
 }
 
 #agregarAlumno {
-  bottom: 73.8%;
+  width: .2em;
+  bottom: 78vh;
   left: 2%;
-  position: relative;
+  position: absolute;
   z-index: 10;
   padding: 30px;
   transition: 300ms;
