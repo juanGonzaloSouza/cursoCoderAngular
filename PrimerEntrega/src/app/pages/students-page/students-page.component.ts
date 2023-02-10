@@ -12,8 +12,6 @@ import { StudentModalComponent } from 'src/app/files/components/student-modal/st
 export class StudentsPageComponent {
   displayedColumns = ['id','nombre','apellido','carrera','modificar','baja']
   alumnos: AlumnoModel[] = [
-
-
     new AlumnoModel(1,'Hernesto','Girobeltor','Biomecanica'),
     new AlumnoModel(2,'Girobeltor','Alcornoque','Literatura'),
     new AlumnoModel(3,'Hernesto','Orca','Biologia'),
