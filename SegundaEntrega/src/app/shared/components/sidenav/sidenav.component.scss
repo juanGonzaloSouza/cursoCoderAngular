@@ -1,0 +1,23 @@
+.navbar {
+  border: 1px solid hsla(0deg, 0%, 100%, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.14);
+  float: left;
+  width: 10%;
+  background-color: var(--color-primary);
+  height: 150px;
+  z-index: 500;
+  position: absolute;
+
+  mat-nav-list {
+    height: 10px;
+    border-top: 4px solid #000;
+    border-right: none;
+  }
+
+  a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+  }
+}

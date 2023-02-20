@@ -1,0 +1,57 @@
+.course-info {
+  max-width: 800px;
+  margin: 1.5em auto;
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+}
+
+.course-info__title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.course-info__subtitle {
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.course-info__paragraph {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.course-info__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.course-info__item {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.course-info__button {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.course-info__button:hover {
+  background-color: #333;
+}

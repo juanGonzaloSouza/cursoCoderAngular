@@ -1,0 +1,19 @@
+footer {
+  margin-top: 3em;
+  background: #fff;
+  border: 1px solid hsla(0deg, 0%, 100%, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.14);
+  height: 10vh; 
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer h2 {
+  display: flex;
+  font-size: 1.5rem;
+  color: #02c997;
+  padding: 20px;
+  justify-content: center;
+}
+
