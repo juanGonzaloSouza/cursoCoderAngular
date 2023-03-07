@@ -1,0 +1,14 @@
+.curso-card {
+  background-color: white;
+  max-width: 200px;
+  height: 370px;
+  overflow-y: auto;
+  border: 1px solid hsla(0deg, 0%, 100%, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.14);
+}
+
+img {
+  width: 198px;
+  height: 160px;
+  object-fit: cover;
+}
