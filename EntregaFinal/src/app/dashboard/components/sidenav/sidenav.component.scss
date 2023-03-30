@@ -1,0 +1,19 @@
+.navbar {
+  float: left;
+  width: 7.3%;
+  background-color: Black;
+  height: 200px;
+  z-index: 5;
+  position: absolute;
+  mat-nav-list{
+    height: 50px;
+    border-top: 4px solid #000;
+    border-right: none;
+  }
+  a {
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+  }
+}
